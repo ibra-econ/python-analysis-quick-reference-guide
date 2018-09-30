@@ -1,5 +1,5 @@
-# python-quic
-## Helpful Python
+# python-quick-reference-guide [wip]
+
 **Iteration over list or dictionaries:**
 
     new_list = [ some_function(item) for item in old_list if some_condition(item) ]
@@ -41,5 +41,5 @@ A way to write functions in a single statement that return a value. Particularly
 - NumPy random functions are useful for simulations and comparing to random various distributions 
 - rand, randint, randn (from a normal distribution), binomial, uniform, etc.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTEzNTYzOV19
+eyJoaXN0b3J5IjpbLTE3MDYyNTUzNjFdfQ==
 -->

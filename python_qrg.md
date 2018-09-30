@@ -16,6 +16,10 @@ split() a string into a list, or join() a list into a string
 
 lstrip() and rstrip() to remove beginning and trailing characters
 
+join elements in a list with a separator
+
+    '::'.join(my_list)
+
 **Regular expressions:**
 [re python package](https://pypi.org/project/regex/)
 
@@ -45,5 +49,5 @@ A way to write functions in a single statement that return a value. Particularly
 - rand, randint, randn (from a normal distribution), binomial, uniform, etc.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTczNjk2MSwtMTcwNjI1NTM2MV19
+eyJoaXN0b3J5IjpbNTcwMjcwODAsLTE3MDYyNTUzNjFdfQ==
 -->

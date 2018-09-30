@@ -10,8 +10,11 @@ Enumeration
     	new_list[value] = index
 
 **String operations:**
--   split() a string into a list, or join() a list into a string
--   lstrip() and rstrip() to remove beginning and trailing characters
+split() a string into a list, or join() a list into a string
+
+    val.split(',')
+
+lstrip() and rstrip() to remove beginning and trailing characters
 
 **Regular expressions:**
 [re python package](https://pypi.org/project/regex/)
@@ -40,6 +43,7 @@ A way to write functions in a single statement that return a value. Particularly
 **Psuedo-random functions:**
 - NumPy random functions are useful for simulations and comparing to random various distributions 
 - rand, randint, randn (from a normal distribution), binomial, uniform, etc.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDYyNTUzNjFdfQ==
+eyJoaXN0b3J5IjpbLTE4MTczNjk2MSwtMTcwNjI1NTM2MV19
 -->

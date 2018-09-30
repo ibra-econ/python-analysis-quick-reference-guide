@@ -110,8 +110,8 @@ Rank the values in order and assign values
     	# do something
     	return value
     df['new_column'] = df['col_name'].apply(function_name)
-   
-df.loc['total'] = df.apply(function_name)
+    OR 
+    df.loc['total'] = df.apply(function_name, axis='columns')
 
 **Value counts:**
 To get counts of various values in a row or column
@@ -295,6 +295,7 @@ OR
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM3ODA4MDU3XX0=
+eyJoaXN0b3J5IjpbLTE3NzA1NTUyMTldfQ==
 -->

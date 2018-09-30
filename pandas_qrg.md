@@ -112,6 +112,7 @@ Rank the values in order and assign values
     df['new_column'] = df['col_name'].apply(function_name)
     OR 
     df.loc['total'] = df.apply(function_name, axis='columns')
+    df.applymap(function_name) # for element-wise functions
 
 **Value counts:**
 To get counts of various values in a row or column
@@ -297,5 +298,5 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzA1NTUyMTldfQ==
+eyJoaXN0b3J5IjpbMTk3MTQxMDI4LC0xNzcwNTU1MjE5XX0=
 -->

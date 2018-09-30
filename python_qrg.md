@@ -23,6 +23,10 @@ join elements in a list with a separator
 **Regular expressions:**
 [re python package](https://pypi.org/project/regex/)
 
+- contains - Return boolean array if each string contains pattern/regex
+- count - Count occurrences of pattern
+- 
+
 **Datetime:**
 [datetime documentation](https://docs.python.org/3/library/datetime.html)
 
@@ -49,5 +53,5 @@ A way to write functions in a single statement that return a value. Particularly
 - rand, randint, randn (from a normal distribution), binomial, uniform, etc.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcwMjcwODAsLTE3MDYyNTUzNjFdfQ==
+eyJoaXN0b3J5IjpbMTIyMjI4MDU4MCwtMTcwNjI1NTM2MV19
 -->

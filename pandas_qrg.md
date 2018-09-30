@@ -120,10 +120,19 @@ To get counts of various values in a row or column
 
     df['col_name'].value_counts()
 
+**Descriptive statistics:**
+
+    df.describe()
+    df['column_name'].describe()
+
 **Find max of column or row:**
 To get the maximum value: `df.max()`
 To get the maximum index or label: `df.idxmax()`
 To get column maxes, easiest to transform with `.T` then use `max()` or `idxmax()`.
+
+**Find mean of column or row:**
+
+    df.mean(axis='columns', skipna=False)
 
 **Get percentiles via qcut:**
 
@@ -298,6 +307,8 @@ OR
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzExNDI3OSwtMTc3MDU1NTIxOV19
+eyJoaXN0b3J5IjpbLTc2NzI4ODM5MSwtMTc3MDU1NTIxOV19
 -->

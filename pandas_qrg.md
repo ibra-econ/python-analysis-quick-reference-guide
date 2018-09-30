@@ -78,6 +78,12 @@ Fill missing values
 
     missing_series.fillna(-1)
 
+**Dropping duplicates:**
+
+    data.drop_duplicates()
+
+
+
 
 ## Transformations
 **To flip the index and columns:**
@@ -314,5 +320,6 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjIzNDM5NiwtMTc3MDU1NTIxOV19
+eyJoaXN0b3J5IjpbLTgxODI3NjkxMiwtNDcyMjM0Mzk2LC0xNz
+cwNTU1MjE5XX0=
 -->

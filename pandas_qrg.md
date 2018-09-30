@@ -142,6 +142,8 @@ To get column maxes, easiest to transform with `.T` then use `max()` or `idxmax(
 
     pd.qcut(df['col_name'], 10) # gets cutoff value for the 10th percentile
 
+**Creating bi
+
 **Replacing values in a column with new values:**
 
     my_df[‘col_name’].replace([‘name_1’,’name_2’],[‘new_1’,’new_2’])
@@ -322,6 +324,6 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTU3MDA3NTksLTQ3MjIzNDM5NiwtMT
-c3MDU1NTIxOV19
+eyJoaXN0b3J5IjpbLTkzNDY5NDY4OSwtNDcyMjM0Mzk2LC0xNz
+cwNTU1MjE5XX0=
 -->

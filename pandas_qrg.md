@@ -206,6 +206,10 @@ The general solution to slicing is to create a range of dates and select a slice
 
 For percent changes (i.e. to see what the closing time was the day before), you can use `.shift(1)` which shifts values up 1 row
 
+**Calculate percent changes:**
+
+    df['column_name'].pct_change()
+
 **Moving averages:**
 
     df['Close'].rolling(window=30, min_periods=10).mean()
@@ -310,5 +314,5 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NzI4ODM5MSwtMTc3MDU1NTIxOV19
+eyJoaXN0b3J5IjpbLTQ3MjIzNDM5NiwtMTc3MDU1NTIxOV19
 -->

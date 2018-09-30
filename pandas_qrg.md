@@ -83,8 +83,6 @@ Fill missing values
     data.drop_duplicates()
 
 
-
-
 ## Transformations
 **To flip the index and columns:**
 T is short-form for "transpose", which flips rows and columns of a matrix
@@ -154,6 +152,10 @@ Simply use `df['a'] + df['b']` but know that any null values in one will result 
 To get around this, use the add function:
 
     df1.add(df2, fill_value=0)
+
+**Transforming text:**
+
+    my_df['column_name'].str.lower()
 
 ## Merge, pivot table and group by [wip]
 ### Pivot table
@@ -320,6 +322,6 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODI3NjkxMiwtNDcyMjM0Mzk2LC0xNz
-cwNTU1MjE5XX0=
+eyJoaXN0b3J5IjpbLTExMTU3MDA3NTksLTQ3MjIzNDM5NiwtMT
+c3MDU1NTIxOV19
 -->

@@ -95,6 +95,7 @@ Sorts dataframe based on new index and creates missing value rows for new indexe
 Sort the DataFrame by its index.
 
     df.sort_index()
+    df.sort_index(axis=1) #sort columns
 Sort the DataFrame by value
 
     df.sort_values(by='column_name', ascending = True)
@@ -298,5 +299,5 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTQxMDI4LC0xNzcwNTU1MjE5XX0=
+eyJoaXN0b3J5IjpbLTg0MzExNDI3OSwtMTc3MDU1NTIxOV19
 -->

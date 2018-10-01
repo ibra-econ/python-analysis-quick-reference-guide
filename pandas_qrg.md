@@ -193,6 +193,7 @@ Group aggregations -
 	- Apply the function in the groupby `my_df.groupby([‘col_1’,’col_2’])[[‘speed’]].agg(function_name)`
 	- Apply multiple functions - `my_df.groupby([‘col_1’,’col_2’])[[‘speed’]].agg([‘mean’,’count’, funct_name])`
 
+**Multilevel hi
 To unstack hierarchies, use `.unstack()`
 
 # Time Series Analysis
@@ -327,6 +328,6 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MzQ5NzI5OSwtNDcyMjM0Mzk2LC0xNz
-cwNTU1MjE5XX0=
+eyJoaXN0b3J5IjpbMTExMjI1MDEsLTQ3MjIzNDM5NiwtMTc3MD
+U1NTIxOV19
 -->

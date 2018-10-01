@@ -167,9 +167,11 @@ To get around this, use the add function:
 pandas.merge connects rows in DataFrames based on one or more keys. Similar to join operations in SQL
 
     pd.merge(df1, df2, on='key')
-    pd.merge(df3, df4, left_on='lkey', right_on='rkey')
+    pd.merge(df3, df4, left_on='lkey', right_on='rkey', suffixes=('_left', '_right'))
     pd.merge(df1, df2, how='outer')
     # options for how include inner, outer, left and right
+
+In some cases, the merge key(s) in a DataFrame will be found in its index. In this case, you can pass left_index=True or right_index=True (or both) to indicate that the index should be used as the merge key
 
 ### Concatenate
 pandas.concat concatenates or “stacks” together objects along an axis
@@ -349,6 +351,6 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzQ1MTU1NDksLTQ3MjIzNDM5NiwtMT
-c3MDU1NTIxOV19
+eyJoaXN0b3J5IjpbMjcxMjIzNzY5LC0xNDM0NTE1NTQ5LC00Nz
+IyMzQzOTYsLTE3NzA1NTUyMTldfQ==
 -->

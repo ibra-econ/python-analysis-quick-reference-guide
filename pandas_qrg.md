@@ -166,8 +166,13 @@ To get around this, use the add function:
 ### Merge
 pandas.merge connects rows in DataFrames based on one or more keys. Similar to join operations in SQL
 
+    pd.merge(df1, df2, on='key')
+    pd.merge(df3, df4, left_on='lkey', right_on='rkey')
+    pd.merge(df1, df2, how='outer')
+    # options for how include inner, outer, left and right
 
-
+### Concatenate
+pandas.concat concatenates or “stacks” together objects along an axis
 
 ### Pivot table
 [Pivot table Documentation](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.pivot_table.html)
@@ -344,6 +349,6 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxNTUxMzU5LC00NzIyMzQzOTYsLTE3Nz
-A1NTUyMTldfQ==
+eyJoaXN0b3J5IjpbLTE0MzQ1MTU1NDksLTQ3MjIzNDM5NiwtMT
+c3MDU1NTIxOV19
 -->

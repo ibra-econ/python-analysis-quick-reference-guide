@@ -193,8 +193,16 @@ Group aggregations -
 	- Apply the function in the groupby `my_df.groupby([‘col_1’,’col_2’])[[‘speed’]].agg(function_name)`
 	- Apply multiple functions - `my_df.groupby([‘col_1’,’col_2’])[[‘speed’]].agg([‘mean’,’count’, funct_name])`
 
-**Multilevel hi
+**Multilevel hierarchies:**
 To unstack hierarchies, use `.unstack()`
+
+If you need to swap the levels of a dataframe, use the level names or numbers
+
+    frame.swaplevel('key1', 'key2')
+
+Set index and reset index help you create and remove levels
+frame2 = frame.set_index(['c', 'd'])
+
 
 # Time Series Analysis
 
@@ -327,7 +335,8 @@ OR
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjI1MDEsLTQ3MjIzNDM5NiwtMTc3MD
-U1NTIxOV19
+eyJoaXN0b3J5IjpbLTU5MDc1MzMyNywtNDcyMjM0Mzk2LC0xNz
+cwNTU1MjE5XX0=
 -->

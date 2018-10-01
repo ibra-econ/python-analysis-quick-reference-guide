@@ -179,7 +179,9 @@ In some cases, the merge key(s) in a DataFrame will be found in its index. In th
 
 ### Concatenate
 pandas.concat concatenates or “stacks” together objects along an axis
-pd.concat([s1, s2]_
+
+    pd.concat([s1, s2]) # results in a long series
+    pd.concat([s1, s2], axis=1) # results in a dataframe
 
 ### Pivot table
 [Pivot table Documentation](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.pivot_table.html)
@@ -356,6 +358,6 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTI4MzY2LC0xNDM0NTE1NTQ5LC00Nz
-IyMzQzOTYsLTE3NzA1NTUyMTldfQ==
+eyJoaXN0b3J5IjpbMTE3MjY1NjM1MSwtMTQzNDUxNTU0OSwtND
+cyMjM0Mzk2LC0xNzcwNTU1MjE5XX0=
 -->

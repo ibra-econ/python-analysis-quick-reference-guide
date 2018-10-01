@@ -182,6 +182,7 @@ pandas.concat concatenates or “stacks” together objects along an axis
 
     pd.concat([s1, s2]) # results in a long series
     pd.concat([s1, s2], axis=1) # results in a dataframe
+    pd.concat([df1, df2]) # concatentate rows of two dataframes
 
 Combining data with overlap
 
@@ -362,6 +363,7 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNjgzNjg3OCwxMTcyNjU2MzUxLC0xND
-M0NTE1NTQ5LC00NzIyMzQzOTYsLTE3NzA1NTUyMTldfQ==
+eyJoaXN0b3J5IjpbLTIzNzQ4NTI0LDE3MTY4MzY4NzgsMTE3Mj
+Y1NjM1MSwtMTQzNDUxNTU0OSwtNDcyMjM0Mzk2LC0xNzcwNTU1
+MjE5XX0=
 -->

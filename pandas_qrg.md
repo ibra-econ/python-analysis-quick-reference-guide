@@ -162,7 +162,13 @@ To get around this, use the add function:
 
     my_df['column_name'].str.lower()
 
-## Merge, pivot table and group by [wip]
+## Merge, pivot table and groupby
+### Merge
+pandas.merge connects rows in DataFrames based on one or more keys. Similar to join operations in SQL
+
+
+
+
 ### Pivot table
 [Pivot table Documentation](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.pivot_table.html)
 
@@ -201,8 +207,9 @@ If you need to swap the levels of a dataframe, use the level names or numbers
     frame.swaplevel('key1', 'key2')
 
 Set index and reset index help you create and remove levels
-frame2 = frame.set_index(['c', 'd'])
 
+    frame2 = frame.set_index(['c', 'd'])
+    frame2.reset_index()
 
 # Time Series Analysis
 
@@ -337,6 +344,6 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDc1MzMyNywtNDcyMjM0Mzk2LC0xNz
-cwNTU1MjE5XX0=
+eyJoaXN0b3J5IjpbNTIxNTUxMzU5LC00NzIyMzQzOTYsLTE3Nz
+A1NTUyMTldfQ==
 -->

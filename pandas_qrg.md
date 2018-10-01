@@ -183,6 +183,10 @@ pandas.concat concatenates or “stacks” together objects along an axis
     pd.concat([s1, s2]) # results in a long series
     pd.concat([s1, s2], axis=1) # results in a dataframe
 
+Combining data with overlap
+
+    s1.combine_first(s2)
+
 ### Pivot table
 [Pivot table Documentation](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.pivot_table.html)
 
@@ -358,6 +362,6 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MjY1NjM1MSwtMTQzNDUxNTU0OSwtND
-cyMjM0Mzk2LC0xNzcwNTU1MjE5XX0=
+eyJoaXN0b3J5IjpbMTcxNjgzNjg3OCwxMTcyNjU2MzUxLC0xND
+M0NTE1NTQ5LC00NzIyMzQzOTYsLTE3NzA1NTUyMTldfQ==
 -->

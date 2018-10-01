@@ -173,8 +173,13 @@ pandas.merge connects rows in DataFrames based on one or more keys. Similar to j
 
 In some cases, the merge key(s) in a DataFrame will be found in its index. In this case, you can pass left_index=True or right_index=True (or both) to indicate that the index should be used as the merge key
 
+### Join
+
+    left2.join(right2, how='outer')
+
 ### Concatenate
 pandas.concat concatenates or “stacks” together objects along an axis
+pd.concat([s1, s2]_
 
 ### Pivot table
 [Pivot table Documentation](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.pivot_table.html)
@@ -351,6 +356,6 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxMjIzNzY5LC0xNDM0NTE1NTQ5LC00Nz
+eyJoaXN0b3J5IjpbLTI2NTI4MzY2LC0xNDM0NTE1NTQ5LC00Nz
 IyMzQzOTYsLTE3NzA1NTUyMTldfQ==
 -->

@@ -86,7 +86,7 @@ Fill missing values
 
     my_df['new_column'] = 0
     mask = (my_df['column'] == 0) & (my_df['another_column'] == 1)
-    ua.ix[mask,'creative_testing'] = 1
+    my_df.ix[mask,'new_column'] = 1
 
 ## Transformations
 **To flip the index and columns:**
@@ -368,7 +368,7 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0OTA1NTkxNiwtMjM3NDg1MjQsMTcxNj
+eyJoaXN0b3J5IjpbMjA1MjY4ODMxMiwtMjM3NDg1MjQsMTcxNj
 gzNjg3OCwxMTcyNjU2MzUxLC0xNDM0NTE1NTQ5LC00NzIyMzQz
 OTYsLTE3NzA1NTUyMTldfQ==
 -->

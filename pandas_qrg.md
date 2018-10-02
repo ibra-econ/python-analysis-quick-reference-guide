@@ -82,6 +82,11 @@ Fill missing values
 
     data.drop_duplicates()
 
+**Adding conditional columns using mask:**
+
+    my_df['new_column'] = 0
+    mask = (my_df['column'] == 0) & (my_df['another_column'] == 1)
+    ua.ix[mask,'creative_testing'] = 1
 
 ## Transformations
 **To flip the index and columns:**
@@ -363,7 +368,7 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzQ4NTI0LDE3MTY4MzY4NzgsMTE3Mj
-Y1NjM1MSwtMTQzNDUxNTU0OSwtNDcyMjM0Mzk2LC0xNzcwNTU1
-MjE5XX0=
+eyJoaXN0b3J5IjpbMTg0OTA1NTkxNiwtMjM3NDg1MjQsMTcxNj
+gzNjg3OCwxMTcyNjU2MzUxLC0xNDM0NTE1NTQ5LC00NzIyMzQz
+OTYsLTE3NzA1NTUyMTldfQ==
 -->

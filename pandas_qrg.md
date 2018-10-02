@@ -86,7 +86,7 @@ Fill missing values
     my_df['new_column'] = pd.to_numeric(my_df['column_name'], errors='coerce')
     # 'coerce' makes any errors NaN
     # 'raise' raises and exception
-    # 
+    # 'ignore' returns input
 
 **Adding conditional columns using mask:**
 
@@ -375,7 +375,7 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NTY0MTAyNiwyMDUyNjg4MzEyLC0yMz
-c0ODUyNCwxNzE2ODM2ODc4LDExNzI2NTYzNTEsLTE0MzQ1MTU1
-NDksLTQ3MjIzNDM5NiwtMTc3MDU1NTIxOV19
+eyJoaXN0b3J5IjpbLTE4OTUzODA4MzUsMjA1MjY4ODMxMiwtMj
+M3NDg1MjQsMTcxNjgzNjg3OCwxMTcyNjU2MzUxLC0xNDM0NTE1
+NTQ5LC00NzIyMzQzOTYsLTE3NzA1NTUyMTldfQ==
 -->

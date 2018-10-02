@@ -328,54 +328,13 @@ For multiple regression, we take two steps:
 
 Dummy variables - if we have 5 variables, we need 4 dummy variables because one has to be set as the base variable
 
-# Visualization
-### Setting up
-
-    %matplotlib inline 
-    # essential to making visualizations show in iPython
-
-
-
-### Scatterplots
-
-    scatter(df['col_1'], df['col_2'])
-
-OR 
-
-    plot(df['col_name_x'], df['col_name_y'], marker='o', color='blue', linestyle='None')
-    xlabel('col_name_x')
-    ylabel('col_name_y')
-    title('title')
-    show()
-
-**Markers**
--   marker='o' for circles. 
--   marker='s' for square marks
--   marker='p' for pentagons
--   marker='.' for points
--   marker='^' for upward-pointing triangle, and on and on.
-
-**Linestyle**
--   linestyle='None' for no line
--   linestyle='-' for plain line
--   linestyle='--' for dashed line
--   linestyle='-.' for dotted-dashed line, and many others.
-
-### Boxplots
-
-    df['col1_groups'] = pd.qcut(df['col_1'], 2, labels=['label_1', 'label_2'])
-    
-    df.boxplot(column='col_2', by='col1_groups', figsize=(12,8), fontsize=28)
-
-
-
-
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTUzODA4MzUsMjA1MjY4ODMxMiwtMj
-M3NDg1MjQsMTcxNjgzNjg3OCwxMTcyNjU2MzUxLC0xNDM0NTE1
-NTQ5LC00NzIyMzQzOTYsLTE3NzA1NTUyMTldfQ==
+eyJoaXN0b3J5IjpbLTgwMDIzODg0NywtMTg5NTM4MDgzNSwyMD
+UyNjg4MzEyLC0yMzc0ODUyNCwxNzE2ODM2ODc4LDExNzI2NTYz
+NTEsLTE0MzQ1MTU1NDksLTQ3MjIzNDM5NiwtMTc3MDU1NTIxOV
+19
 -->

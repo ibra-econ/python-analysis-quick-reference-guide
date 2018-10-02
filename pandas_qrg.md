@@ -81,6 +81,12 @@ Fill missing values
 **Dropping duplicates:**
 
     data.drop_duplicates()
+**Converting columns from string to numeric:**
+
+    my_df['new_column'] = pd.to_numeric(my_df['column_name'], errors='coerce')
+    # 'coerce' makes any errors NaN
+    # 'raise' raises and exception
+    # 
 
 **Adding conditional columns using mask:**
 
@@ -367,8 +373,9 @@ OR
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjY4ODMxMiwtMjM3NDg1MjQsMTcxNj
-gzNjg3OCwxMTcyNjU2MzUxLC0xNDM0NTE1NTQ5LC00NzIyMzQz
-OTYsLTE3NzA1NTUyMTldfQ==
+eyJoaXN0b3J5IjpbMTE4NTY0MTAyNiwyMDUyNjg4MzEyLC0yMz
+c0ODUyNCwxNzE2ODM2ODc4LDExNzI2NTYzNTEsLTE0MzQ1MTU1
+NDksLTQ3MjIzNDM5NiwtMTc3MDU1NTIxOV19
 -->

@@ -186,7 +186,7 @@ In some cases, the merge key(s) in a DataFrame will be found in its index. In th
 
 ### Join
 
-    left2.join(right2, how='outer')
+    left2.join(right2, how='outer', lsuffix='', rsuffix='', sort=False)
 
 ### Concatenate
 pandas.concat concatenates or “stacks” together objects along an axis
@@ -333,7 +333,7 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDIzODg0NywtMTg5NTM4MDgzNSwyMD
+eyJoaXN0b3J5IjpbMTE2NTU2NDE5OSwtMTg5NTM4MDgzNSwyMD
 UyNjg4MzEyLC0yMzc0ODUyNCwxNzE2ODM2ODc4LDExNzI2NTYz
 NTEsLTE0MzQ1MTU1NDksLTQ3MjIzNDM5NiwtMTc3MDU1NTIxOV
 19

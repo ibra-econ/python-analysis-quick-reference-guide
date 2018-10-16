@@ -61,6 +61,10 @@ Set x and y axis ranges for plot. Can also be set on the axes level using ax.xli
     plt.xlim([0, 10])
     plt.ylim([-10, 10])
 
+**Add annotations:**
+
+    ax.text(x, y, 'Hello world!', family='monospace', fontsize=10)
+
 
 
 ## Scatterplots
@@ -96,8 +100,9 @@ OR
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODkxMTkzMywtOTcxMTk2MzgyLDQxNT
-YyMDI0OCw5MzU5NDk0MTcsMTUzNjQ1NDQ0MiwyMDY5MzI1NTg2
-XX0=
+eyJoaXN0b3J5IjpbNTM5MTYxODM3LC05NzExOTYzODIsNDE1Nj
+IwMjQ4LDkzNTk0OTQxNywxNTM2NDU0NDQyLDIwNjkzMjU1ODZd
+fQ==
 -->

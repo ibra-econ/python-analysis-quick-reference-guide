@@ -84,7 +84,17 @@ You can also add shapes to a plot by using `patches` including Rectangle, Circle
 **Pandas plotting:**
 Most of pandas’s plotting methods accept an optional ax parameter, which can be a matplotlib subplot object. This gives you more flexible placement of subplots in a grid layout.
 
-The plot attribute contains a “family” of methods for different plot types. For exam‐ ple, df.plot() is equivalent to df.plot.line(). We’ll explore some of these methods next
+The plot attribute contains a “family” of methods for different plot types. For exam‐ ple, df.plot() is equivalent to df.plot.line(). 
+- label: Label for plot legend ax matplotlib subplot object to plot on; if nothing passed, uses active matplotlib subplot 
+- style: Style string, like 'ko--', to be passed to matplotlib 
+- alpha: The plot fill opacity (from 0 to 1) 
+- kind: Can be 'area', 'bar', 'barh', 'density', 'hist', 'kde', 'line', 'pie' 
+- logy: Use logarithmic scaling on the y-axis 
+- use_index: Use the object index for tick labels 
+- rot: Rotation of tick labels (0 through 360) 
+- xticks: Values to use for x-axis ticks 
+- yticks: Values to use for y-axis ticks 
+- xlim and ylim: x-ax limits (e.g., [0, 10]) ylim y-axis limits grid Display axis grid (on by default)
 
 ## Scatterplots
 
@@ -121,7 +131,7 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzI5OTM5LC0yMTE0MDA2NDA2LC0xNj
-g2Mzc3NTc5LC05NzExOTYzODIsNDE1NjIwMjQ4LDkzNTk0OTQx
-NywxNTM2NDU0NDQyLDIwNjkzMjU1ODZdfQ==
+eyJoaXN0b3J5IjpbMTM4ODg0Nzk5NCwtMjExNDAwNjQwNiwtMT
+Y4NjM3NzU3OSwtOTcxMTk2MzgyLDQxNTYyMDI0OCw5MzU5NDk0
+MTcsMTUzNjQ1NDQ0MiwyMDY5MzI1NTg2XX0=
 -->

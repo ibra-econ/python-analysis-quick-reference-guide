@@ -73,7 +73,11 @@ Set x and y axis ranges for plot. Can also be set on the axes level using ax.xli
 					    horizontalalignment='left', 
 					    verticalalignment='top')
 
-You can also add shapes to a plot by using `patches`.
+You can also add shapes to a plot by using `patches` including Rectangle, Circle and Polygon.
+
+**Saving plots to a file:**
+
+    plt.savefig('figpath.svg')
 
 ## Scatterplots
 
@@ -110,7 +114,7 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2ODA3MDI5MCwtMTY4NjM3NzU3OSwtOT
-cxMTk2MzgyLDQxNTYyMDI0OCw5MzU5NDk0MTcsMTUzNjQ1NDQ0
-MiwyMDY5MzI1NTg2XX0=
+eyJoaXN0b3J5IjpbLTIxMTQwMDY0MDYsLTE2ODYzNzc1NzksLT
+k3MTE5NjM4Miw0MTU2MjAyNDgsOTM1OTQ5NDE3LDE1MzY0NTQ0
+NDIsMjA2OTMyNTU4Nl19
 -->

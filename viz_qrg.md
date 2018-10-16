@@ -7,6 +7,8 @@
     %matplotlib notebook 	# essential to making visualizations show in iPython
     %matplotlib inline 		# another option for making visualizations show in iPython -- more lightweight.
 
+### Figures and subplots
+
 
 ## Scatterplots
 
@@ -41,5 +43,5 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDMwNzgxNjMsMjA2OTMyNTU4Nl19
+eyJoaXN0b3J5IjpbMjEwMjg0ODE4NiwyMDY5MzI1NTg2XX0=
 -->

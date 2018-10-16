@@ -39,8 +39,11 @@ You can see the full set of line styles by looking at the docstring for plot (us
     ax.plot(x, y, linestyle='-', drawstyle='steps-post')
 
 **Legends:**
-Add labels to each of your plots, then call those in the legend.
-plt.plot(data, 'k--', label='Default')
+Add labels to each of your plots, then call those in the legend. You must call plt.legend (or ax.legend, if you have a reference to the axes) to create the legend, whether or not you passed the label options when plotting the data.
+
+    plt.plot(data, 'k--', label='Default')
+    plt.legend(loc='best')
+
 
 
 ## Scatterplots
@@ -76,6 +79,6 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTYyNjk1OSw5MzU5NDk0MTcsMTUzNj
-Q1NDQ0MiwyMDY5MzI1NTg2XX0=
+eyJoaXN0b3J5IjpbNDE1NjIwMjQ4LDkzNTk0OTQxNywxNTM2ND
+U0NDQyLDIwNjkzMjU1ODZdfQ==
 -->

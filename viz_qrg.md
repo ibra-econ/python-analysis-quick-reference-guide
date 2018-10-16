@@ -8,6 +8,10 @@
     %matplotlib inline 		# another option for making visualizations show in iPython -- more lightweight.
 
 ### Figures and subplots
+Plots exist in a Figure. Create a new figure using:
+
+    fig_name = plt.figure()
+
 
 
 ## Scatterplots
@@ -43,5 +47,5 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMjg0ODE4NiwyMDY5MzI1NTg2XX0=
+eyJoaXN0b3J5IjpbMTUzNjQ1NDQ0MiwyMDY5MzI1NTg2XX0=
 -->

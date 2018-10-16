@@ -38,7 +38,7 @@ You can see the full set of line styles by looking at the docstring for plot (us
     ax.plot(x, y, linestyle='dashed', marker='o')
     ax.plot(x, y, linestyle='-', drawstyle='steps-post')
 
-Marker options provided by Towards Data Science
+Marker options provided by [Towards Data Science](https://towardsdatascience.com/all-your-matplotlib-questions-answered-420dd95cb4ff):
 ![Marker options provided by Towards Data Science](https://cdn-images-1.medium.com/max/1600/1*j9c5-jeNtFSomokdYMeaiA.png)
 
 **Legends and labels:**
@@ -141,8 +141,8 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NDk5OTcyNiwxNDY5MTMzMDg2LC0yMD
-A3NDU5NTQ0LC0yMTE0MDA2NDA2LC0xNjg2Mzc3NTc5LC05NzEx
-OTYzODIsNDE1NjIwMjQ4LDkzNTk0OTQxNywxNTM2NDU0NDQyLD
-IwNjkzMjU1ODZdfQ==
+eyJoaXN0b3J5IjpbNzc3NjY0MTYsMTQ2OTEzMzA4NiwtMjAwNz
+Q1OTU0NCwtMjExNDAwNjQwNiwtMTY4NjM3NzU3OSwtOTcxMTk2
+MzgyLDQxNTYyMDI0OCw5MzU5NDk0MTcsMTUzNjQ1NDQ0MiwyMD
+Y5MzI1NTg2XX0=
 -->

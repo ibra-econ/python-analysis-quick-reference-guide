@@ -18,7 +18,7 @@ You can then create subplots in the figure by using the add_subplot function. Be
     ax2 = fig.add_subplot(2, 2, 2) 
     ax3 = fig.add_subplot(2, 2, 3)
 
-
+Then to plot on your subplots, simply use the axis
 
 ## Scatterplots
 
@@ -53,6 +53,6 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDI2NDc1MTAsMTUzNjQ1NDQ0MiwyMD
-Y5MzI1NTg2XX0=
+eyJoaXN0b3J5IjpbMTU1MDEwNTQzOCwxNTM2NDU0NDQyLDIwNj
+kzMjU1ODZdfQ==
 -->

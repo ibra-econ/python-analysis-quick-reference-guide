@@ -64,8 +64,11 @@ Set x and y axis ranges for plot. Can also be set on the axes level using ax.xli
 **Add annotations:**
 
     ax.text(x, y, 'Hello world!', family='monospace', fontsize=10)
-
-
+    ax.annotate(
+	    label, 
+	    xy=(x_var, my_df.y_var(x_var) + 75), 
+	    xytext=(x_var, my_df.asof(x_var) + 225), 
+	    arrowprops=dict(facecolor='black', headwidth=4, width=2, headlength=4), horizontalalignment='left', verticalalignment='top')
 
 ## Scatterplots
 
@@ -102,7 +105,7 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM5MTYxODM3LC05NzExOTYzODIsNDE1Nj
-IwMjQ4LDkzNTk0OTQxNywxNTM2NDU0NDQyLDIwNjkzMjU1ODZd
-fQ==
+eyJoaXN0b3J5IjpbMTU3NTk0MzAzMSwtOTcxMTk2MzgyLDQxNT
+YyMDI0OCw5MzU5NDk0MTcsMTUzNjQ1NDQ0MiwyMDY5MzI1NTg2
+XX0=
 -->

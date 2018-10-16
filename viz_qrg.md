@@ -22,6 +22,10 @@ Then to plot on your subplots, simply use the axis name.
 
     ax1.plot(my_data.cumsum(), 'k---') # creates a cumulative dotted line chart
 
+To quickly make subplots that share an axis, use:
+
+    fig, axis = plt.subplots( 2, 2, sharey=True, sharex=True)
+
 
 
 ## Scatterplots
@@ -57,6 +61,6 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1OTQ5NDE3LDE1MzY0NTQ0NDIsMjA2OT
-MyNTU4Nl19
+eyJoaXN0b3J5IjpbMjA1ODQyMjkzMSw5MzU5NDk0MTcsMTUzNj
+Q1NDQ0MiwyMDY5MzI1NTg2XX0=
 -->

@@ -26,7 +26,12 @@ To quickly make subplots that share an axis, use:
 
     fig, axis = plt.subplots( 2, 2, sharey=True, sharex=True)
 
-**Styling
+**Styling of subplots**
+Remove and adjust space between and around subplots:
+
+    plt.subplots_adjust(left=None, bottom=None, right=None, top=None, wspace=0, hspace=0)
+
+**
 
 ## Scatterplots
 
@@ -61,6 +66,6 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDIwNjEzMDUsOTM1OTQ5NDE3LDE1Mz
-Y0NTQ0NDIsMjA2OTMyNTU4Nl19
+eyJoaXN0b3J5IjpbMTk1OTE5MTAwNyw5MzU5NDk0MTcsMTUzNj
+Q1NDQ0MiwyMDY5MzI1NTg2XX0=
 -->

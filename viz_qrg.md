@@ -94,7 +94,8 @@ The plot attribute contains a “family” of methods for different plot types. 
 - rot: Rotation of tick labels (0 through 360) 
 - xticks: Values to use for x-axis ticks 
 - yticks: Values to use for y-axis ticks 
-- xlim and ylim: x-ax limits (e.g., [0, 10]) ylim y-axis limits grid Display axis grid (on by default)
+- xlim and ylim: axis limits (e.g., [0, 10]) 
+- grid: Display axis grid (on by default)
 
 ## Scatterplots
 
@@ -131,7 +132,7 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4ODg0Nzk5NCwtMjExNDAwNjQwNiwtMT
-Y4NjM3NzU3OSwtOTcxMTk2MzgyLDQxNTYyMDI0OCw5MzU5NDk0
-MTcsMTUzNjQ1NDQ0MiwyMDY5MzI1NTg2XX0=
+eyJoaXN0b3J5IjpbLTIwMDc0NTk1NDQsLTIxMTQwMDY0MDYsLT
+E2ODYzNzc1NzksLTk3MTE5NjM4Miw0MTU2MjAyNDgsOTM1OTQ5
+NDE3LDE1MzY0NTQ0NDIsMjA2OTMyNTU4Nl19
 -->

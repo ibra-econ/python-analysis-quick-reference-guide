@@ -31,7 +31,11 @@ Remove and adjust space between and around subplots:
 
     plt.subplots_adjust(left=None, bottom=None, right=None, top=None, wspace=0, hspace=0)
 
-**
+**Color and style of lines:**
+You can see the full set of line styles by looking at the docstring for plot (use plot? in IPython or Jupyter).
+
+    ax.plot(x, y, linestyle='--', color='#CECECE')
+    ax.plot(x, y, linestyle='dashed', marker='o')
 
 ## Scatterplots
 
@@ -66,6 +70,6 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1OTE5MTAwNyw5MzU5NDk0MTcsMTUzNj
+eyJoaXN0b3J5IjpbLTkxMDMwMzQ1Miw5MzU5NDk0MTcsMTUzNj
 Q1NDQ0MiwyMDY5MzI1NTg2XX0=
 -->

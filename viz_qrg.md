@@ -43,6 +43,8 @@ Add labels to each of your plots, then call those in the legend. You must call p
 
     plt.plot(data, 'k--', label='Default')
     plt.legend(loc='best')
+If you aren’t picky, 'best' is a good option, as it will choose a location that is most out of the way. To exclude one or more elements from the legend, pass no label or label='_nolegend_'.
+
 Set tick values and labels.
 
     plt.set_xticks([0,1,2,3])
@@ -95,7 +97,7 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0MDkwNzU0LC05NzExOTYzODIsNDE1Nj
-IwMjQ4LDkzNTk0OTQxNywxNTM2NDU0NDQyLDIwNjkzMjU1ODZd
-fQ==
+eyJoaXN0b3J5IjpbLTg4ODkxMTkzMywtOTcxMTk2MzgyLDQxNT
+YyMDI0OCw5MzU5NDk0MTcsMTUzNjQ1NDQ0MiwyMDY5MzI1NTg2
+XX0=
 -->

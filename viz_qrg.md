@@ -3,8 +3,9 @@
 
 ### Setting up
 
-    %matplotlib inline 
-    # essential to making visualizations show in iPython
+    import matplotlib.pyplot as plt
+    %matplotlib notebook 	# essential to making visualizations show in iPython
+    %matplotlib inline 		# another option for making visualizations show in iPython -- more lightweight.
 
 
 ## Scatterplots
@@ -40,5 +41,5 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2OTMyNTU4Nl19
+eyJoaXN0b3J5IjpbLTE0MDMwNzgxNjMsMjA2OTMyNTU4Nl19
 -->

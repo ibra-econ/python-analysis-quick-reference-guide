@@ -12,6 +12,12 @@ Plots exist in a Figure. Create a new figure using:
 
     fig_name = plt.figure()
 
+You can then create subplots in the figure by using the add_subplot function. Below creates a 2x2 grip 
+
+    ax1 = fig.add_subplot(2, 2, 1) 
+    ax2 = fig.add_subplot(2, 2, 2) 
+    ax3 = fig.add_subplot(2, 2, 3)
+
 
 
 ## Scatterplots
@@ -47,5 +53,6 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjQ1NDQ0MiwyMDY5MzI1NTg2XX0=
+eyJoaXN0b3J5IjpbLTE0NDYxNjQ1OTQsMTUzNjQ1NDQ0MiwyMD
+Y5MzI1NTg2XX0=
 -->

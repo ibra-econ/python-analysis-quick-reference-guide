@@ -38,11 +38,17 @@ You can see the full set of line styles by looking at the docstring for plot (us
     ax.plot(x, y, linestyle='dashed', marker='o')
     ax.plot(x, y, linestyle='-', drawstyle='steps-post')
 
-**Legends:**
+**Legends and labels:**
 Add labels to each of your plots, then call those in the legend. You must call plt.legend (or ax.legend, if you have a reference to the axes) to create the legend, whether or not you passed the label options when plotting the data.
 
     plt.plot(data, 'k--', label='Default')
     plt.legend(loc='best')
+Set tick values and labels.
+
+    plt.set_xticks([0,1,2,3])
+    plt.set_xticklabels(['one', 'two', 'three'], rotation = 30, fontsize='small')
+
+
 
 **Axes Limits:**
 Set x and y axis ranges for plot. Can also be set on the axes level using ax.xlim().
@@ -85,6 +91,7 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTE5NjM4Miw0MTU2MjAyNDgsOTM1OT
-Q5NDE3LDE1MzY0NTQ0NDIsMjA2OTMyNTU4Nl19
+eyJoaXN0b3J5IjpbLTE3NTg3OTY0NjEsLTk3MTE5NjM4Miw0MT
+U2MjAyNDgsOTM1OTQ5NDE3LDE1MzY0NTQ0NDIsMjA2OTMyNTU4
+Nl19
 -->

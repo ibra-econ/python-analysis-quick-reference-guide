@@ -79,6 +79,9 @@ You can also add shapes to a plot by using `patches` including Rectangle, Circle
 
     plt.savefig('figpath.svg')
 
+## Pandas plotting, matplotlib plotting and seaborn plotting
+Most of pandas’s plotting methods accept an optional ax parameter, which can be a matplotlib subplot object. This gives you more flexible placement of subplots in a grid layout.
+
 ## Scatterplots
 
     scatter(df['col_1'], df['col_2'])
@@ -114,7 +117,7 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQwMDY0MDYsLTE2ODYzNzc1NzksLT
-k3MTE5NjM4Miw0MTU2MjAyNDgsOTM1OTQ5NDE3LDE1MzY0NTQ0
-NDIsMjA2OTMyNTU4Nl19
+eyJoaXN0b3J5IjpbLTE5MTcyNTQ5NjQsLTIxMTQwMDY0MDYsLT
+E2ODYzNzc1NzksLTk3MTE5NjM4Miw0MTU2MjAyNDgsOTM1OTQ5
+NDE3LDE1MzY0NTQ0NDIsMjA2OTMyNTU4Nl19
 -->

@@ -1,7 +1,7 @@
 
 # visualizations-quick-reference-guide [wip]
 
-### Setting up
+## Setting up
 
     import matplotlib.pyplot as plt
     %matplotlib notebook 	# essential to making visualizations show in iPython
@@ -26,7 +26,7 @@ To quickly make subplots that share an axis, use:
 
     fig, axis = plt.subplots( 2, 2, sharey=True, sharex=True)
 
-**Styling of subplots**
+### Styling of subplots:
 Remove and adjust space between and around subplots:
 
     plt.subplots_adjust(left=None, bottom=None, right=None, top=None, wspace=0, hspace=0)
@@ -36,6 +36,12 @@ You can see the full set of line styles by looking at the docstring for plot (us
 
     ax.plot(x, y, linestyle='--', color='#CECECE')
     ax.plot(x, y, linestyle='dashed', marker='o')
+    ax.plot(x, y, linestyle='-', drawstyle='steps-post')
+
+**Legends:**
+Add labels to each of your plots, then call those in the legend.
+plt.plot(data, 'k--', label='Default')
+
 
 ## Scatterplots
 
@@ -70,6 +76,6 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDMwMzQ1Miw5MzU5NDk0MTcsMTUzNj
+eyJoaXN0b3J5IjpbMTk3OTYyNjk1OSw5MzU5NDk0MTcsMTUzNj
 Q1NDQ0MiwyMDY5MzI1NTg2XX0=
 -->

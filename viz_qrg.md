@@ -68,7 +68,10 @@ Set x and y axis ranges for plot. Can also be set on the axes level using ax.xli
 	    label, 
 	    xy=(x_var, my_df.y_var(x_var) + 75), 
 	    xytext=(x_var, my_df.asof(x_var) + 225), 
-	    arrowprops=dict(facecolor='black', headwidth=4, width=2, headlength=4), horizontalalignment='left', verticalalignment='top')
+	    arrowprops=dict(facecolor='black', headwidth=4, 
+					    width=2, headlength=4), 
+					    horizontalalignment='left', 
+					    verticalalignment='top')
 
 ## Scatterplots
 
@@ -105,7 +108,7 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTk0MzAzMSwtOTcxMTk2MzgyLDQxNT
-YyMDI0OCw5MzU5NDk0MTcsMTUzNjQ1NDQ0MiwyMDY5MzI1NTg2
-XX0=
+eyJoaXN0b3J5IjpbLTE2ODYzNzc1NzksLTk3MTE5NjM4Miw0MT
+U2MjAyNDgsOTM1OTQ5NDE3LDE1MzY0NTQ0NDIsMjA2OTMyNTU4
+Nl19
 -->

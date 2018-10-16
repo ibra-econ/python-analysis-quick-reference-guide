@@ -47,8 +47,11 @@ Set tick values and labels.
 
     plt.set_xticks([0,1,2,3])
     plt.set_xticklabels(['one', 'two', 'three'], rotation = 30, fontsize='small')
+    plt.set_xlabel('x axis')
 
+Set title.
 
+    ax.set_title('My first matplotlib plot')
 
 **Axes Limits:**
 Set x and y axis ranges for plot. Can also be set on the axes level using ax.xlim().
@@ -90,8 +93,9 @@ OR
     df.boxplot(column='col_2', by='col1_groups', figsize=(12,8), fontsize=28)
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTg3OTY0NjEsLTk3MTE5NjM4Miw0MT
-U2MjAyNDgsOTM1OTQ5NDE3LDE1MzY0NTQ0NDIsMjA2OTMyNTU4
-Nl19
+eyJoaXN0b3J5IjpbMjQ0MDkwNzU0LC05NzExOTYzODIsNDE1Nj
+IwMjQ4LDkzNTk0OTQxNywxNTM2NDU0NDQyLDIwNjkzMjU1ODZd
+fQ==
 -->

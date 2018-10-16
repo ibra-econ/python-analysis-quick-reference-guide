@@ -44,6 +44,12 @@ Add labels to each of your plots, then call those in the legend. You must call p
     plt.plot(data, 'k--', label='Default')
     plt.legend(loc='best')
 
+**Axes Limits:**
+Set x and y axis ranges for plot.
+
+    plt.xlim([0, 10])
+    plt.ylim([-10, 10])
+
 
 
 ## Scatterplots
@@ -79,6 +85,6 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1NjIwMjQ4LDkzNTk0OTQxNywxNTM2ND
-U0NDQyLDIwNjkzMjU1ODZdfQ==
+eyJoaXN0b3J5IjpbLTQyMDU3OTUxNyw0MTU2MjAyNDgsOTM1OT
+Q5NDE3LDE1MzY0NTQ0NDIsMjA2OTMyNTU4Nl19
 -->

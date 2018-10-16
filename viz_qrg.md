@@ -53,6 +53,9 @@ Set tick values and labels.
     plt.set_xticks([0,1,2,3])
     plt.set_xticklabels(['one', 'two', 'three'], rotation = 30, fontsize='small')
     plt.set_xlabel('x axis')
+    OR
+    plt.ylabel('X LABEL', fontsize = 15) #for y label  
+    plt.xlabel('Y LABEL', fontsize = 15) #for x label
 
 Set title.
 
@@ -93,7 +96,7 @@ Most of pandas’s plotting methods accept an optional ax parameter, which can b
 The plot attribute contains a “family” of methods for different plot types. For exam‐ ple, df.plot() is equivalent to df.plot.line(). 
 - label: Label for plot legend ax matplotlib subplot object to plot on; if nothing passed, uses active matplotlib subplot 
 - style: Style string, like 'ko--', to be passed to matplotlib 
-- alpha: The plot fill opacity (from 0 to 1) 
+- alpha: The plot fill *opacity* (from 0 to 1) 
 - kind: Can be 'area', 'bar', 'barh', 'density', 'hist', 'kde', 'line', 'pie' 
 - logy: Use logarithmic scaling on the y-axis 
 - use_index: Use the object index for tick labels 
@@ -141,8 +144,8 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3NjY0MTYsMTQ2OTEzMzA4NiwtMjAwNz
-Q1OTU0NCwtMjExNDAwNjQwNiwtMTY4NjM3NzU3OSwtOTcxMTk2
-MzgyLDQxNTYyMDI0OCw5MzU5NDk0MTcsMTUzNjQ1NDQ0MiwyMD
-Y5MzI1NTg2XX0=
+eyJoaXN0b3J5IjpbMTM2Nzg0MzcxMCwxNDY5MTMzMDg2LC0yMD
+A3NDU5NTQ0LC0yMTE0MDA2NDA2LC0xNjg2Mzc3NTc5LC05NzEx
+OTYzODIsNDE1NjIwMjQ4LDkzNTk0OTQxNywxNTM2NDU0NDQyLD
+IwNjkzMjU1ODZdfQ==
 -->

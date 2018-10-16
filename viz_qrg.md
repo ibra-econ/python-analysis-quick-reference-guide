@@ -79,9 +79,9 @@ You can also add shapes to a plot by using `patches` including Rectangle, Circle
 
     plt.savefig('figpath.svg')
 
-## Pandas plotting, matplotlib plotting and seaborn plotting
+## Pandas plotting
 
-**Pandas plotting:**
+**Pandas plotting basics:**
 Most of pandas’s plotting methods accept an optional ax parameter, which can be a matplotlib subplot object. This gives you more flexible placement of subplots in a grid layout.
 
 The plot attribute contains a “family” of methods for different plot types. For exam‐ ple, df.plot() is equivalent to df.plot.line(). 
@@ -96,6 +96,9 @@ The plot attribute contains a “family” of methods for different plot types. 
 - yticks: Values to use for y-axis ticks 
 - xlim and ylim: axis limits (e.g., [0, 10]) 
 - grid: Display axis grid (on by default)
+
+**DataFrame plot arguments:**
+
 
 ## Scatterplots
 
@@ -132,7 +135,8 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDc0NTk1NDQsLTIxMTQwMDY0MDYsLT
-E2ODYzNzc1NzksLTk3MTE5NjM4Miw0MTU2MjAyNDgsOTM1OTQ5
-NDE3LDE1MzY0NTQ0NDIsMjA2OTMyNTU4Nl19
+eyJoaXN0b3J5IjpbMTQ2OTEzMzA4NiwtMjAwNzQ1OTU0NCwtMj
+ExNDAwNjQwNiwtMTY4NjM3NzU3OSwtOTcxMTk2MzgyLDQxNTYy
+MDI0OCw5MzU5NDk0MTcsMTUzNjQ1NDQ0MiwyMDY5MzI1NTg2XX
+0=
 -->

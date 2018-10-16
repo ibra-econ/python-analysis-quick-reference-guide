@@ -73,6 +73,8 @@ Set x and y axis ranges for plot. Can also be set on the axes level using ax.xli
 					    horizontalalignment='left', 
 					    verticalalignment='top')
 
+You can also add shapes to a plot by using `patches`.
+
 ## Scatterplots
 
     scatter(df['col_1'], df['col_2'])
@@ -108,7 +110,7 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODYzNzc1NzksLTk3MTE5NjM4Miw0MT
-U2MjAyNDgsOTM1OTQ5NDE3LDE1MzY0NTQ0NDIsMjA2OTMyNTU4
-Nl19
+eyJoaXN0b3J5IjpbMTg2ODA3MDI5MCwtMTY4NjM3NzU3OSwtOT
+cxMTk2MzgyLDQxNTYyMDI0OCw5MzU5NDk0MTcsMTUzNjQ1NDQ0
+MiwyMDY5MzI1NTg2XX0=
 -->

@@ -38,6 +38,9 @@ You can see the full set of line styles by looking at the docstring for plot (us
     ax.plot(x, y, linestyle='dashed', marker='o')
     ax.plot(x, y, linestyle='-', drawstyle='steps-post')
 
+Marker options provided by Towards Data Science
+![Marker options provided by Towards Data Science](https://cdn-images-1.medium.com/max/1600/1*j9c5-jeNtFSomokdYMeaiA.png)
+
 **Legends and labels:**
 Add labels to each of your plots, then call those in the legend. You must call plt.legend (or ax.legend, if you have a reference to the axes) to create the legend, whether or not you passed the label options when plotting the data.
 
@@ -54,6 +57,9 @@ Set tick values and labels.
 Set title.
 
     ax.set_title('My first matplotlib plot')
+Add grid to plots.
+
+    plt.grid(True)
 
 **Axes Limits:**
 Set x and y axis ranges for plot. Can also be set on the axes level using ax.xlim().
@@ -135,8 +141,8 @@ OR
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2OTEzMzA4NiwtMjAwNzQ1OTU0NCwtMj
-ExNDAwNjQwNiwtMTY4NjM3NzU3OSwtOTcxMTk2MzgyLDQxNTYy
-MDI0OCw5MzU5NDk0MTcsMTUzNjQ1NDQ0MiwyMDY5MzI1NTg2XX
-0=
+eyJoaXN0b3J5IjpbMTM5NDk5OTcyNiwxNDY5MTMzMDg2LC0yMD
+A3NDU5NTQ0LC0yMTE0MDA2NDA2LC0xNjg2Mzc3NTc5LC05NzEx
+OTYzODIsNDE1NjIwMjQ4LDkzNTk0OTQxNywxNTM2NDU0NDQyLD
+IwNjkzMjU1ODZdfQ==
 -->

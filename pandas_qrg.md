@@ -304,6 +304,12 @@ Output is a timedelta object, for which you can use the following to get the day
 
     delta.day()
 
+**Creating time ranges:**
+
+    pd.date_range('2000-01-01', periods=10, freq='1h30min')
+    pd.date_range(start='2000-01-01')
+    pd.date_range(end='2010-01-01')
+
 **Calculate percent changes:**
 
     df['column_name'].pct_change()
@@ -381,9 +387,9 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTQ1NDM3ODgsLTI5NTg2MDkxLDE0MD
-kzNTUzMTgsNjgwOTUzMjkyLDE2MTA0MTg0NjcsMTE2NTU2NDE5
-OSwtMTg5NTM4MDgzNSwyMDUyNjg4MzEyLC0yMzc0ODUyNCwxNz
-E2ODM2ODc4LDExNzI2NTYzNTEsLTE0MzQ1MTU1NDksLTQ3MjIz
-NDM5NiwtMTc3MDU1NTIxOV19
+eyJoaXN0b3J5IjpbMTUyOTU4NjQ2MCwtMTQ1NDU0Mzc4OCwtMj
+k1ODYwOTEsMTQwOTM1NTMxOCw2ODA5NTMyOTIsMTYxMDQxODQ2
+NywxMTY1NTY0MTk5LC0xODk1MzgwODM1LDIwNTI2ODgzMTIsLT
+IzNzQ4NTI0LDE3MTY4MzY4NzgsMTE3MjY1NjM1MSwtMTQzNDUx
+NTU0OSwtNDcyMjM0Mzk2LC0xNzcwNTU1MjE5XX0=
 -->

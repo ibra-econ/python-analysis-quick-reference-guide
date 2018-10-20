@@ -314,6 +314,10 @@ Output is a timedelta object, for which you can use the following to get the day
 
     df['column_name'].pct_change()
 
+**Shifting data:** Another way to determine percent changes in a time series.
+
+    ts / ts.shift(1) - 1
+
 **Moving averages:**
 
     df['Close'].rolling(window=30, min_periods=10).mean()
@@ -387,7 +391,7 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NzUxOTAzLC0xNDU0NTQzNzg4LC0yOT
+eyJoaXN0b3J5IjpbMzEwNjc5Nzg0LC0xNDU0NTQzNzg4LC0yOT
 U4NjA5MSwxNDA5MzU1MzE4LDY4MDk1MzI5MiwxNjEwNDE4NDY3
 LDExNjU1NjQxOTksLTE4OTUzODA4MzUsMjA1MjY4ODMxMiwtMj
 M3NDg1MjQsMTcxNjgzNjg3OCwxMTcyNjU2MzUxLC0xNDM0NTE1

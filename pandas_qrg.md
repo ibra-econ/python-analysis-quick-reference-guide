@@ -318,6 +318,11 @@ Output is a timedelta object, for which you can use the following to get the day
 
     ts / ts.shift(1) - 1
 
+**Creating periods of data:**
+Periods represent timespans, like days, months, quarters, or years. The Period class represents this data type, requiring a string or integer and a frequency: 
+
+    p = pd.Period(2007, freq='A-DEC')
+
 **Moving averages:**
 
     df['Close'].rolling(window=30, min_periods=10).mean()
@@ -391,9 +396,10 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEwNjc5Nzg0LC0xNDU0NTQzNzg4LC0yOT
-U4NjA5MSwxNDA5MzU1MzE4LDY4MDk1MzI5MiwxNjEwNDE4NDY3
-LDExNjU1NjQxOTksLTE4OTUzODA4MzUsMjA1MjY4ODMxMiwtMj
-M3NDg1MjQsMTcxNjgzNjg3OCwxMTcyNjU2MzUxLC0xNDM0NTE1
-NTQ5LC00NzIyMzQzOTYsLTE3NzA1NTUyMTldfQ==
+eyJoaXN0b3J5IjpbMTI2MjUwMzQ4OCwzMTA2Nzk3ODQsLTE0NT
+Q1NDM3ODgsLTI5NTg2MDkxLDE0MDkzNTUzMTgsNjgwOTUzMjky
+LDE2MTA0MTg0NjcsMTE2NTU2NDE5OSwtMTg5NTM4MDgzNSwyMD
+UyNjg4MzEyLC0yMzc0ODUyNCwxNzE2ODM2ODc4LDExNzI2NTYz
+NTEsLTE0MzQ1MTU1NDksLTQ3MjIzNDM5NiwtMTc3MDU1NTIxOV
+19
 -->

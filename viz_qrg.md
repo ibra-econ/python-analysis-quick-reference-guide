@@ -142,7 +142,9 @@ We can then use seaborn’s regplot method, which makes a scatter plot and fits 
 **Pair-plotting:** a good way to look at the relationships and distributions of variables all at once. Seaborn makes this very simple. Seaborn has a convenient pairplot function, which supports placing histograms or density estimates of each variable along the diagonal.
 
     sns.pairplot(my_data, diag_kind='kde', plot_kws={'alpha': 0.2})
-    # creates
+    # creates scatterplots of each variable pair, then has kernel density plots down the diaganol.
+
+
 
 
 ## Boxplots
@@ -168,8 +170,8 @@ Seaborn makes histograms and density plots even easier through its distplot meth
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTQ3NDgzOSwxMzY3ODQzNzEwLDE0Nj
-kxMzMwODYsLTIwMDc0NTk1NDQsLTIxMTQwMDY0MDYsLTE2ODYz
-Nzc1NzksLTk3MTE5NjM4Miw0MTU2MjAyNDgsOTM1OTQ5NDE3LD
-E1MzY0NTQ0NDIsMjA2OTMyNTU4Nl19
+eyJoaXN0b3J5IjpbMTkxODcxMTM3LDEzNjc4NDM3MTAsMTQ2OT
+EzMzA4NiwtMjAwNzQ1OTU0NCwtMjExNDAwNjQwNiwtMTY4NjM3
+NzU3OSwtOTcxMTk2MzgyLDQxNTYyMDI0OCw5MzU5NDk0MTcsMT
+UzNjQ1NDQ0MiwyMDY5MzI1NTg2XX0=
 -->

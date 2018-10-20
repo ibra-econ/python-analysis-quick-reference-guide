@@ -146,10 +146,19 @@ A histogram is a kind of bar plot that gives a discretized display of value freq
     my_df['column_name'].plot.hist(bins=50)
 
 A related plot type is a density plot, which is formed by computing an estimate of a continuous probability distribution that might have generated the observed data.
-tips['tip_pct'].plot.density()
+
+    my_df['column_name'].plot.density()
+
+**Histogram and density plot together with seaborn**
+Seaborn makes histograms and density plots even easier through its distplot method, which can plot both a histogram and a continuous density estimate simultaneously.
+
+    sns.distplot(values, bins=100, color='k')
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDE1ODY2OCwxMzY3ODQzNzEwLDE0Nj
-kxMzMwODYsLTIwMDc0NTk1NDQsLTIxMTQwMDY0MDYsLTE2ODYz
-Nzc1NzksLTk3MTE5NjM4Miw0MTU2MjAyNDgsOTM1OTQ5NDE3LD
-E1MzY0NTQ0NDIsMjA2OTMyNTU4Nl19
+eyJoaXN0b3J5IjpbLTEwMTUyMjc3NzksMTM2Nzg0MzcxMCwxND
+Y5MTMzMDg2LC0yMDA3NDU5NTQ0LC0yMTE0MDA2NDA2LC0xNjg2
+Mzc3NTc5LC05NzExOTYzODIsNDE1NjIwMjQ4LDkzNTk0OTQxNy
+wxNTM2NDU0NDQyLDIwNjkzMjU1ODZdfQ==
 -->

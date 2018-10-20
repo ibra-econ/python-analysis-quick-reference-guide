@@ -140,12 +140,16 @@ OR
     
     df.boxplot(column='col_2', by='col1_groups', figsize=(12,8), fontsize=28)
 
+## Histogram
+A histogram is a kind of bar plot that gives a discretized display of value frequency. The data points are split into discrete, evenly spaced bins, and the number of data points in each bin is plotted.
 
+    my_df['column_name'].plot.hist(bins=50)
 
-
+A related plot type is a density plot, which is formed by computing an estimate of a continuous probability distribution that might have generated the observed data.
+tips['tip_pct'].plot.density()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2Nzg0MzcxMCwxNDY5MTMzMDg2LC0yMD
-A3NDU5NTQ0LC0yMTE0MDA2NDA2LC0xNjg2Mzc3NTc5LC05NzEx
-OTYzODIsNDE1NjIwMjQ4LDkzNTk0OTQxNywxNTM2NDU0NDQyLD
-IwNjkzMjU1ODZdfQ==
+eyJoaXN0b3J5IjpbMTUyNDE1ODY2OCwxMzY3ODQzNzEwLDE0Nj
+kxMzMwODYsLTIwMDc0NTk1NDQsLTIxMTQwMDY0MDYsLTE2ODYz
+Nzc1NzksLTk3MTE5NjM4Miw0MTU2MjAyNDgsOTM1OTQ5NDE3LD
+E1MzY0NTQ0NDIsMjA2OTMyNTU4Nl19
 -->

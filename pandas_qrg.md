@@ -286,6 +286,12 @@ For percent changes (i.e. to see what the closing time was the day before), you 
 **Timedelta:** 
 Useful for representing the temporal difference between two datetime objects.
 
+    delta = datetime(2011, 1, 7) - datetime(2008, 6, 24, 8, 15)
+
+output is a timedelta object, for which you can use the following to get the days difference:
+
+    delta.day()
+
 **Calculate percent changes:**
 
     df['column_name'].pct_change()
@@ -353,10 +359,12 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk3NTU1NjMzLDE0MDkzNTUzMTgsNjgwOT
-UzMjkyLDE2MTA0MTg0NjcsMTE2NTU2NDE5OSwtMTg5NTM4MDgz
-NSwyMDUyNjg4MzEyLC0yMzc0ODUyNCwxNzE2ODM2ODc4LDExNz
-I2NTYzNTEsLTE0MzQ1MTU1NDksLTQ3MjIzNDM5NiwtMTc3MDU1
-NTIxOV19
+eyJoaXN0b3J5IjpbLTY1NjY1MDIwNiwxNDA5MzU1MzE4LDY4MD
+k1MzI5MiwxNjEwNDE4NDY3LDExNjU1NjQxOTksLTE4OTUzODA4
+MzUsMjA1MjY4ODMxMiwtMjM3NDg1MjQsMTcxNjgzNjg3OCwxMT
+cyNjU2MzUxLC0xNDM0NTE1NTQ5LC00NzIyMzQzOTYsLTE3NzA1
+NTUyMTldfQ==
 -->

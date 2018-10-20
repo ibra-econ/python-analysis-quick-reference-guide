@@ -229,6 +229,10 @@ Group aggregations -
 	- Apply the function in the groupby `my_df.groupby([‘col_1’,’col_2’])[[‘speed’]].agg(function_name)`
 	- Apply multiple functions - `my_df.groupby([‘col_1’,’col_2’])[[‘speed’]].agg([‘mean’,’count’, funct_name])`
 
+You can also group by python functions, such as:
+
+    my_df['col_name]].groupby(len).count() # gets the number of rows with column le
+
 **Multilevel hierarchies:**
 To unstack hierarchies, use `.unstack()`
 
@@ -333,8 +337,8 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NTU2NDE5OSwtMTg5NTM4MDgzNSwyMD
-UyNjg4MzEyLC0yMzc0ODUyNCwxNzE2ODM2ODc4LDExNzI2NTYz
-NTEsLTE0MzQ1MTU1NDksLTQ3MjIzNDM5NiwtMTc3MDU1NTIxOV
-19
+eyJoaXN0b3J5IjpbMTIwNjYwODg0MywxMTY1NTY0MTk5LC0xOD
+k1MzgwODM1LDIwNTI2ODgzMTIsLTIzNzQ4NTI0LDE3MTY4MzY4
+NzgsMTE3MjY1NjM1MSwtMTQzNDUxNTU0OSwtNDcyMjM0Mzk2LC
+0xNzcwNTU1MjE5XX0=
 -->

@@ -156,8 +156,10 @@ To get column maxes, easiest to transform with `.T` then use `max()` or `idxmax(
 **Creating quartiles:**
 
     quartiles = pd.cut(df['column_name'], 4) # gives 4 equal size buckets
+    
     # Groupby quartiles
     grouped = df.column_name.groupby(quartiles)
+    
     # Get descriptive statistics
     grouped.apply(describe).unstack()
 
@@ -345,7 +347,7 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4MTE4NTA0LDE2MTA0MTg0NjcsMTE2NT
+eyJoaXN0b3J5IjpbNjgwOTUzMjkyLDE2MTA0MTg0NjcsMTE2NT
 U2NDE5OSwtMTg5NTM4MDgzNSwyMDUyNjg4MzEyLC0yMzc0ODUy
 NCwxNzE2ODM2ODc4LDExNzI2NTYzNTEsLTE0MzQ1MTU1NDksLT
 Q3MjIzNDM5NiwtMTc3MDU1NTIxOV19

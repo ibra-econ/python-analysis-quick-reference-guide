@@ -283,6 +283,13 @@ The general solution to slicing is to create a range of dates and select a slice
 
 For percent changes (i.e. to see what the closing time was the day before), you can use `.shift(1)` which shifts values up 1 row
 
+**Easy way to parse dates with dateutil.parser:**
+
+    from dateutil.parser import parse 
+    parse('2011-01-03') 
+    # Output: 
+    datetime.datetime(2011, 1, 3, 0, 0)
+
 **Timedelta:** 
 Useful for representing the temporal difference between two datetime objects.
 
@@ -362,9 +369,9 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxOTY2NDk2MiwxNDA5MzU1MzE4LDY4MD
-k1MzI5MiwxNjEwNDE4NDY3LDExNjU1NjQxOTksLTE4OTUzODA4
-MzUsMjA1MjY4ODMxMiwtMjM3NDg1MjQsMTcxNjgzNjg3OCwxMT
-cyNjU2MzUxLC0xNDM0NTE1NTQ5LC00NzIyMzQzOTYsLTE3NzA1
-NTUyMTldfQ==
+eyJoaXN0b3J5IjpbNjQzNTY4ODk3LDE0MDkzNTUzMTgsNjgwOT
+UzMjkyLDE2MTA0MTg0NjcsMTE2NTU2NDE5OSwtMTg5NTM4MDgz
+NSwyMDUyNjg4MzEyLC0yMzc0ODUyNCwxNzE2ODM2ODc4LDExNz
+I2NTYzNTEsLTE0MzQ1MTU1NDksLTQ3MjIzNDM5NiwtMTc3MDU1
+NTIxOV19
 -->

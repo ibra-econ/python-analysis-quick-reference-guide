@@ -288,7 +288,7 @@ Useful for representing the temporal difference between two datetime objects.
 
     delta = datetime(2011, 1, 7) - datetime(2008, 6, 24, 8, 15)
 
-output is a timedelta object, for which you can use the following to get the days difference:
+Output is a timedelta object, for which you can use the following to get the days difference:
 
     delta.day()
 
@@ -362,7 +362,7 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NjY1MDIwNiwxNDA5MzU1MzE4LDY4MD
+eyJoaXN0b3J5IjpbMjAxOTY2NDk2MiwxNDA5MzU1MzE4LDY4MD
 k1MzI5MiwxNjEwNDE4NDY3LDExNjU1NjQxOTksLTE4OTUzODA4
 MzUsMjA1MjY4ODMxMiwtMjM3NDg1MjQsMTcxNjgzNjg3OCwxMT
 cyNjU2MzUxLC0xNDM0NTE1NTQ5LC00NzIyMzQzOTYsLTE3NzA1

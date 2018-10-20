@@ -145,8 +145,6 @@ We can then use seaborn’s regplot method, which makes a scatter plot and fits 
     # creates scatterplots of each variable pair, then has kernel density plots down the diaganol.
 
 
-
-
 ## Boxplots
 
     df['col1_groups'] = pd.qcut(df['col_1'], 2, labels=['label_1', 'label_2'])
@@ -167,11 +165,17 @@ Seaborn makes histograms and density plots even easier through its distplot meth
 
     sns.distplot(values, bins=100, color='k')
 
+## Facet Grid / Factorplot
+One way to visualize data with many categorical variables is to use a facet grid. Seaborn has a useful built-in function factorplot that simplifies making many kinds of faceted plot.
+
+    sns.factorplot(x='x_variable', y='y_variable', hue='category_one', col='category_two', kind='bar', data=my_df)
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODcxMTM3LDEzNjc4NDM3MTAsMTQ2OT
-EzMzA4NiwtMjAwNzQ1OTU0NCwtMjExNDAwNjQwNiwtMTY4NjM3
-NzU3OSwtOTcxMTk2MzgyLDQxNTYyMDI0OCw5MzU5NDk0MTcsMT
-UzNjQ1NDQ0MiwyMDY5MzI1NTg2XX0=
+eyJoaXN0b3J5IjpbLTIxNDIyNzE4OTYsMTM2Nzg0MzcxMCwxND
+Y5MTMzMDg2LC0yMDA3NDU5NTQ0LC0yMTE0MDA2NDA2LC0xNjg2
+Mzc3NTc5LC05NzExOTYzODIsNDE1NjIwMjQ4LDkzNTk0OTQxNy
+wxNTM2NDU0NDQyLDIwNjkzMjU1ODZdfQ==
 -->

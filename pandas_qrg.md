@@ -218,6 +218,10 @@ Apart from pivot_table(), there are two main ways to reshape the data:
 -   stack, which "rotates" or pivots from columns to index, and
 -   unstack, which does the opposite.
 
+A cross-tabulation (or crosstab for short) is a special case of a pivot table that com‐ putes group frequencies.
+
+    pd.crosstab(my_data.col_1, my_data.col_2, margins=True)
+
 ### Groupby
 [Groupby Documentation](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.groupby.html)
 
@@ -347,8 +351,8 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwOTUzMjkyLDE2MTA0MTg0NjcsMTE2NT
-U2NDE5OSwtMTg5NTM4MDgzNSwyMDUyNjg4MzEyLC0yMzc0ODUy
-NCwxNzE2ODM2ODc4LDExNzI2NTYzNTEsLTE0MzQ1MTU1NDksLT
-Q3MjIzNDM5NiwtMTc3MDU1NTIxOV19
+eyJoaXN0b3J5IjpbMTQwOTM1NTMxOCw2ODA5NTMyOTIsMTYxMD
+QxODQ2NywxMTY1NTY0MTk5LC0xODk1MzgwODM1LDIwNTI2ODgz
+MTIsLTIzNzQ4NTI0LDE3MTY4MzY4NzgsMTE3MjY1NjM1MSwtMT
+QzNDUxNTU0OSwtNDcyMjM0Mzk2LC0xNzcwNTU1MjE5XX0=
 -->

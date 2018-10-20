@@ -308,7 +308,7 @@ Output is a timedelta object, for which you can use the following to get the day
 
     pd.date_range('2000-01-01', periods=10, freq='1h30min')
     pd.date_range(start='2000-01-01')
-    pd.date_range(end='2010-01-01')
+    pd.date_range(end='2010-01-01', periods=20)
 
 **Calculate percent changes:**
 
@@ -387,9 +387,9 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTU4NjQ2MCwtMTQ1NDU0Mzc4OCwtMj
-k1ODYwOTEsMTQwOTM1NTMxOCw2ODA5NTMyOTIsMTYxMDQxODQ2
-NywxMTY1NTY0MTk5LC0xODk1MzgwODM1LDIwNTI2ODgzMTIsLT
-IzNzQ4NTI0LDE3MTY4MzY4NzgsMTE3MjY1NjM1MSwtMTQzNDUx
-NTU0OSwtNDcyMjM0Mzk2LC0xNzcwNTU1MjE5XX0=
+eyJoaXN0b3J5IjpbMTE0NzUxOTAzLC0xNDU0NTQzNzg4LC0yOT
+U4NjA5MSwxNDA5MzU1MzE4LDY4MDk1MzI5MiwxNjEwNDE4NDY3
+LDExNjU1NjQxOTksLTE4OTUzODA4MzUsMjA1MjY4ODMxMiwtMj
+M3NDg1MjQsMTcxNjgzNjg3OCwxMTcyNjU2MzUxLC0xNDM0NTE1
+NTQ5LC00NzIyMzQzOTYsLTE3NzA1NTUyMTldfQ==
 -->

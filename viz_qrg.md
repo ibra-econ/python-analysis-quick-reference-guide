@@ -134,7 +134,12 @@ OR
 -   linestyle='--' for dashed line
 -   linestyle='-.' for dotted-dashed line, and many others.
 
-**Scatte
+**Scatterplot + Regression Line**
+We can then use seaborn’s regplot method, which makes a scatter plot and fits a linear regression line.
+
+    sns.regplot('x_value', 'y_value', data=my_data)
+
+**Pair-plotting:** a good way to look at the relationships and distributions of variables all at on
 
 ## Boxplots
 
@@ -159,7 +164,7 @@ Seaborn makes histograms and density plots even easier through its distplot meth
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDYzNzkzMjMsMTM2Nzg0MzcxMCwxND
+eyJoaXN0b3J5IjpbLTE3NzAzNTEyMDgsMTM2Nzg0MzcxMCwxND
 Y5MTMzMDg2LC0yMDA3NDU5NTQ0LC0yMTE0MDA2NDA2LC0xNjg2
 Mzc3NTc5LC05NzExOTYzODIsNDE1NjIwMjQ4LDkzNTk0OTQxNy
 wxNTM2NDU0NDQyLDIwNjkzMjU1ODZdfQ==

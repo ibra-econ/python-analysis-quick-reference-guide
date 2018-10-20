@@ -134,6 +134,8 @@ OR
 -   linestyle='--' for dashed line
 -   linestyle='-.' for dotted-dashed line, and many others.
 
+**Scatte
+
 ## Boxplots
 
     df['col1_groups'] = pd.qcut(df['col_1'], 2, labels=['label_1', 'label_2'])
@@ -157,7 +159,7 @@ Seaborn makes histograms and density plots even easier through its distplot meth
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTUyMjc3NzksMTM2Nzg0MzcxMCwxND
+eyJoaXN0b3J5IjpbLTEyMDYzNzkzMjMsMTM2Nzg0MzcxMCwxND
 Y5MTMzMDg2LC0yMDA3NDU5NTQ0LC0yMTE0MDA2NDA2LC0xNjg2
 Mzc3NTc5LC05NzExOTYzODIsNDE1NjIwMjQ4LDkzNTk0OTQxNy
 wxNTM2NDU0NDQyLDIwNjkzMjU1ODZdfQ==

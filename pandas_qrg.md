@@ -231,7 +231,9 @@ Group aggregations -
 
 You can also group by python functions, such as:
 
-    my_df['col_name]].groupby(len).count() # gets the number of rows with column le
+    my_df['col_name]].groupby(len).count() # gets the number of rows with column character length
+
+
 
 **Multilevel hierarchies:**
 To unstack hierarchies, use `.unstack()`
@@ -337,7 +339,7 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjYwODg0MywxMTY1NTY0MTk5LC0xOD
+eyJoaXN0b3J5IjpbMTYxMDQxODQ2NywxMTY1NTY0MTk5LC0xOD
 k1MzgwODM1LDIwNTI2ODgzMTIsLTIzNzQ4NTI0LDE3MTY4MzY4
 NzgsMTE3MjY1NjM1MSwtMTQzNDUxNTU0OSwtNDcyMjM0Mzk2LC
 0xNzcwNTU1MjE5XX0=

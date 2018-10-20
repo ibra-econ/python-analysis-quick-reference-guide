@@ -78,6 +78,11 @@ Fill missing values
 
     missing_series.fillna(-1)
 
+**Check that a column or index is unique:**
+
+    my_df.index.is_unique
+    my_df.column.is_unique
+
 **Dropping duplicates:**
 
     data.drop_duplicates()
@@ -322,8 +327,6 @@ If your index is a datetime object, you can access it many ways:
     ts['2001-05']
     ts['1/6/2011':'1/11/2011']
 
-
-
 # Statistics
 **Linspace for binning:**
 
@@ -378,9 +381,9 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MjkwMjg2MiwtMjk1ODYwOTEsMTQwOT
-M1NTMxOCw2ODA5NTMyOTIsMTYxMDQxODQ2NywxMTY1NTY0MTk5
-LC0xODk1MzgwODM1LDIwNTI2ODgzMTIsLTIzNzQ4NTI0LDE3MT
-Y4MzY4NzgsMTE3MjY1NjM1MSwtMTQzNDUxNTU0OSwtNDcyMjM0
-Mzk2LC0xNzcwNTU1MjE5XX0=
+eyJoaXN0b3J5IjpbLTE0NTQ1NDM3ODgsLTI5NTg2MDkxLDE0MD
+kzNTUzMTgsNjgwOTUzMjkyLDE2MTA0MTg0NjcsMTE2NTU2NDE5
+OSwtMTg5NTM4MDgzNSwyMDUyNjg4MzEyLC0yMzc0ODUyNCwxNz
+E2ODM2ODc4LDExNzI2NTYzNTEsLTE0MzQ1MTU1NDksLTQ3MjIz
+NDM5NiwtMTc3MDU1NTIxOV19
 -->

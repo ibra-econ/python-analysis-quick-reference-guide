@@ -170,12 +170,13 @@ One way to visualize data with many categorical variables is to use a facet grid
 
     sns.factorplot(x='x_variable', y='y_variable', hue='category_one', col='category_two', kind='bar', data=my_df)
 
+You can also split on more dimensions/factors/facets by using row="category_one". 
 
-
+Factorplots also supports other kinds of plots, such as boxplots - good for seeing distributions of variables.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDIyNzE4OTYsMTM2Nzg0MzcxMCwxND
-Y5MTMzMDg2LC0yMDA3NDU5NTQ0LC0yMTE0MDA2NDA2LC0xNjg2
-Mzc3NTc5LC05NzExOTYzODIsNDE1NjIwMjQ4LDkzNTk0OTQxNy
-wxNTM2NDU0NDQyLDIwNjkzMjU1ODZdfQ==
+eyJoaXN0b3J5IjpbLTM2NTAzMzc0OSwxMzY3ODQzNzEwLDE0Nj
+kxMzMwODYsLTIwMDc0NTk1NDQsLTIxMTQwMDY0MDYsLTE2ODYz
+Nzc1NzksLTk3MTE5NjM4Miw0MTU2MjAyNDgsOTM1OTQ5NDE3LD
+E1MzY0NTQ0NDIsMjA2OTMyNTU4Nl19
 -->

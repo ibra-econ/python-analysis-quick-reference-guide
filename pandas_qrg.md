@@ -330,6 +330,8 @@ Regular ranges of periods can be constructed with the period_range function:
 **Resampling:**
 Resampling refers to the process of converting a time series from one frequency to another. Aggregating higher frequency data to lower frequency is called downsampling, while converting lower frequency to higher frequency is called upsampling.
 
+pandas objects are equipped with a resample method, which is the workhorse func‐ tion for all frequency conversion. resample has a similar API to groupby; you call resample to group the data, then call an aggregation function:
+
 
 
 **Moving averages:**
@@ -406,10 +408,10 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5OTM4NTc2NywtMTYyNDkwNDMxNywzMT
-A2Nzk3ODQsLTE0NTQ1NDM3ODgsLTI5NTg2MDkxLDE0MDkzNTUz
-MTgsNjgwOTUzMjkyLDE2MTA0MTg0NjcsMTE2NTU2NDE5OSwtMT
-g5NTM4MDgzNSwyMDUyNjg4MzEyLC0yMzc0ODUyNCwxNzE2ODM2
-ODc4LDExNzI2NTYzNTEsLTE0MzQ1MTU1NDksLTQ3MjIzNDM5Ni
-wtMTc3MDU1NTIxOV19
+eyJoaXN0b3J5IjpbODkxNzAzNTc2LC0xNjI0OTA0MzE3LDMxMD
+Y3OTc4NCwtMTQ1NDU0Mzc4OCwtMjk1ODYwOTEsMTQwOTM1NTMx
+OCw2ODA5NTMyOTIsMTYxMDQxODQ2NywxMTY1NTY0MTk5LC0xOD
+k1MzgwODM1LDIwNTI2ODgzMTIsLTIzNzQ4NTI0LDE3MTY4MzY4
+NzgsMTE3MjY1NjM1MSwtMTQzNDUxNTU0OSwtNDcyMjM0Mzk2LC
+0xNzcwNTU1MjE5XX0=
 -->

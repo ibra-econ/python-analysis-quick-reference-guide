@@ -153,6 +153,10 @@ To get column maxes, easiest to transform with `.T` then use `max()` or `idxmax(
 
     pd.qcut(df['col_name'], 10) # gets cutoff value for the 10th percentile
 
+**Creating quartiles:**
+
+    quartiles = pd.cut(df['column_name'], 4) # gives 4 equal size buckets
+
 **Creating bins of values:**
 
     bins = [0, 5, 10, 15, 20]
@@ -232,8 +236,6 @@ Group aggregations -
 You can also group by python functions, such as:
 
     my_df['col_name]].groupby(len).count() # gets the number of rows with column character length
-
-
 
 **Multilevel hierarchies:**
 To unstack hierarchies, use `.unstack()`
@@ -339,8 +341,8 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDQxODQ2NywxMTY1NTY0MTk5LC0xOD
-k1MzgwODM1LDIwNTI2ODgzMTIsLTIzNzQ4NTI0LDE3MTY4MzY4
-NzgsMTE3MjY1NjM1MSwtMTQzNDUxNTU0OSwtNDcyMjM0Mzk2LC
-0xNzcwNTU1MjE5XX0=
+eyJoaXN0b3J5IjpbODY2NzE0ODAzLDE2MTA0MTg0NjcsMTE2NT
+U2NDE5OSwtMTg5NTM4MDgzNSwyMDUyNjg4MzEyLC0yMzc0ODUy
+NCwxNzE2ODM2ODc4LDExNzI2NTYzNTEsLTE0MzQ1MTU1NDksLT
+Q3MjIzNDM5NiwtMTc3MDU1NTIxOV19
 -->

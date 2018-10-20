@@ -315,6 +315,15 @@ Output is a timedelta object, for which you can use the following to get the day
 -   from the 30th day onwards, take the average of the past 30 days
 -   mean(): Compute the mean for this rolling window
 
+**Slicing DateTime indexes:**
+If your index is a datetime object, you can access it many ways:
+
+    ts['2001']
+    ts['2001-05']
+    ts['1/6/2011':'1/11/2011']
+
+
+
 # Statistics
 **Linspace for binning:**
 
@@ -369,9 +378,9 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTg2MDkxLDE0MDkzNTUzMTgsNjgwOT
-UzMjkyLDE2MTA0MTg0NjcsMTE2NTU2NDE5OSwtMTg5NTM4MDgz
-NSwyMDUyNjg4MzEyLC0yMzc0ODUyNCwxNzE2ODM2ODc4LDExNz
-I2NTYzNTEsLTE0MzQ1MTU1NDksLTQ3MjIzNDM5NiwtMTc3MDU1
-NTIxOV19
+eyJoaXN0b3J5IjpbMTY0MjkwMjg2MiwtMjk1ODYwOTEsMTQwOT
+M1NTMxOCw2ODA5NTMyOTIsMTYxMDQxODQ2NywxMTY1NTY0MTk5
+LC0xODk1MzgwODM1LDIwNTI2ODgzMTIsLTIzNzQ4NTI0LDE3MT
+Y4MzY4NzgsMTE3MjY1NjM1MSwtMTQzNDUxNTU0OSwtNDcyMjM0
+Mzk2LC0xNzcwNTU1MjE5XX0=
 -->

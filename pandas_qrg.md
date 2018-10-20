@@ -332,7 +332,7 @@ Resampling refers to the process of converting a time series from one frequency 
 
 pandas objects are equipped with a resample method, which is the workhorse func‐ tion for all frequency conversion. resample has a similar API to groupby; you call resample to group the data, then call an aggregation function:
 
-
+    ts.resample('M').mean()
 
 **Moving averages:**
 
@@ -407,8 +407,9 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkxNzAzNTc2LC0xNjI0OTA0MzE3LDMxMD
+eyJoaXN0b3J5IjpbNTA4OTExOTAyLC0xNjI0OTA0MzE3LDMxMD
 Y3OTc4NCwtMTQ1NDU0Mzc4OCwtMjk1ODYwOTEsMTQwOTM1NTMx
 OCw2ODA5NTMyOTIsMTYxMDQxODQ2NywxMTY1NTY0MTk5LC0xOD
 k1MzgwODM1LDIwNTI2ODgzMTIsLTIzNzQ4NTI0LDE3MTY4MzY4

@@ -283,6 +283,9 @@ The general solution to slicing is to create a range of dates and select a slice
 
 For percent changes (i.e. to see what the closing time was the day before), you can use `.shift(1)` which shifts values up 1 row
 
+**Timedelta:** 
+Useful for representing the temporal difference between two datetime objects.
+
 **Calculate percent changes:**
 
     df['column_name'].pct_change()
@@ -351,8 +354,9 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTM1NTMxOCw2ODA5NTMyOTIsMTYxMD
-QxODQ2NywxMTY1NTY0MTk5LC0xODk1MzgwODM1LDIwNTI2ODgz
-MTIsLTIzNzQ4NTI0LDE3MTY4MzY4NzgsMTE3MjY1NjM1MSwtMT
-QzNDUxNTU0OSwtNDcyMjM0Mzk2LC0xNzcwNTU1MjE5XX0=
+eyJoaXN0b3J5IjpbOTk3NTU1NjMzLDE0MDkzNTUzMTgsNjgwOT
+UzMjkyLDE2MTA0MTg0NjcsMTE2NTU2NDE5OSwtMTg5NTM4MDgz
+NSwyMDUyNjg4MzEyLC0yMzc0ODUyNCwxNzE2ODM2ODc4LDExNz
+I2NTYzNTEsLTE0MzQ1MTU1NDksLTQ3MjIzNDM5NiwtMTc3MDU1
+NTIxOV19
 -->

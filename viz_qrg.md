@@ -61,7 +61,7 @@ Set title.
 
     ax.set_title('My first matplotlib plot')
 Set subtitle.
-
+plt.suptitle('subtitle here', y=0)
 Add grid to plots.
 
     plt.grid(True)
@@ -177,7 +177,7 @@ You can also split on more dimensions/factors/facets by using row="category_one"
 Factorplots also supports other kinds of plots, such as boxplots - good for seeing distributions of variables.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDIzODQwMywtMzY1MDMzNzQ5LDEzNj
+eyJoaXN0b3J5IjpbLTMwODc4NDQ3NiwtMzY1MDMzNzQ5LDEzNj
 c4NDM3MTAsMTQ2OTEzMzA4NiwtMjAwNzQ1OTU0NCwtMjExNDAw
 NjQwNiwtMTY4NjM3NzU3OSwtOTcxMTk2MzgyLDQxNTYyMDI0OC
 w5MzU5NDk0MTcsMTUzNjQ1NDQ0MiwyMDY5MzI1NTg2XX0=

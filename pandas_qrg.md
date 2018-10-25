@@ -154,9 +154,14 @@ To get column maxes, easiest to transform with `.T` then use `max()` or `idxmax(
 
     df.mean(axis='columns', skipna=False)
 
+**Calculate percentiles:**
+
+    # get 10th percentile
+    my_df['col_name'].quantile(q=.1)
+
 **Get percentiles via qcut:**
 
-    pd.qcut(df['col_name'], 10) # gets cutoff value for the 10th percentile
+    pd.qcut(df['col_name'], 10) # puts values in buckets
 
 **Creating quartiles:**
 
@@ -409,10 +414,10 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA4OTExOTAyLC0xNjI0OTA0MzE3LDMxMD
-Y3OTc4NCwtMTQ1NDU0Mzc4OCwtMjk1ODYwOTEsMTQwOTM1NTMx
-OCw2ODA5NTMyOTIsMTYxMDQxODQ2NywxMTY1NTY0MTk5LC0xOD
-k1MzgwODM1LDIwNTI2ODgzMTIsLTIzNzQ4NTI0LDE3MTY4MzY4
-NzgsMTE3MjY1NjM1MSwtMTQzNDUxNTU0OSwtNDcyMjM0Mzk2LC
-0xNzcwNTU1MjE5XX0=
+eyJoaXN0b3J5IjpbMTAxMDMzOTQ2Miw1MDg5MTE5MDIsLTE2Mj
+Q5MDQzMTcsMzEwNjc5Nzg0LC0xNDU0NTQzNzg4LC0yOTU4NjA5
+MSwxNDA5MzU1MzE4LDY4MDk1MzI5MiwxNjEwNDE4NDY3LDExNj
+U1NjQxOTksLTE4OTUzODA4MzUsMjA1MjY4ODMxMiwtMjM3NDg1
+MjQsMTcxNjgzNjg3OCwxMTcyNjU2MzUxLC0xNDM0NTE1NTQ5LC
+00NzIyMzQzOTYsLTE3NzA1NTUyMTldfQ==
 -->

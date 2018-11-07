@@ -139,6 +139,7 @@ Rank the values in order and assign values
 To get counts of various values in a row or column
 
     df['col_name'].value_counts()
+    df['col_name'].value_counts(normalize=True) #gives percentages instead of counts
 
 **Descriptive statistics:**
 
@@ -414,10 +415,10 @@ Dummy variables - if we have 5 variables, we need 4 dummy variables because one 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMDMzOTQ2Miw1MDg5MTE5MDIsLTE2Mj
-Q5MDQzMTcsMzEwNjc5Nzg0LC0xNDU0NTQzNzg4LC0yOTU4NjA5
-MSwxNDA5MzU1MzE4LDY4MDk1MzI5MiwxNjEwNDE4NDY3LDExNj
-U1NjQxOTksLTE4OTUzODA4MzUsMjA1MjY4ODMxMiwtMjM3NDg1
-MjQsMTcxNjgzNjg3OCwxMTcyNjU2MzUxLC0xNDM0NTE1NTQ5LC
-00NzIyMzQzOTYsLTE3NzA1NTUyMTldfQ==
+eyJoaXN0b3J5IjpbODEyMTczNzk0LDEwMTAzMzk0NjIsNTA4OT
+ExOTAyLC0xNjI0OTA0MzE3LDMxMDY3OTc4NCwtMTQ1NDU0Mzc4
+OCwtMjk1ODYwOTEsMTQwOTM1NTMxOCw2ODA5NTMyOTIsMTYxMD
+QxODQ2NywxMTY1NTY0MTk5LC0xODk1MzgwODM1LDIwNTI2ODgz
+MTIsLTIzNzQ4NTI0LDE3MTY4MzY4NzgsMTE3MjY1NjM1MSwtMT
+QzNDUxNTU0OSwtNDcyMjM0Mzk2LC0xNzcwNTU1MjE5XX0=
 -->

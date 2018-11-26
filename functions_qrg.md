@@ -1,6 +1,7 @@
 
 ## Functions Quick Reference Guide
 
+### Confidence Intervals
 Analyzing confidence intervals using bootstrapping and pandas GroupBy function:
 
     def calculate_statistic(sample):
@@ -29,5 +30,5 @@ Analyzing confidence intervals using bootstrapping and pandas GroupBy function:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NzA3MTA2OF19
+eyJoaXN0b3J5IjpbLTU5NjYxMDIwNV19
 -->
